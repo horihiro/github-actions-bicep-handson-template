@@ -13,7 +13,7 @@ var toyManualsStorageAccountName = 'toyweb${resourceNameSuffix}'
 var environmentConfiguration = {
   appServicePlan: {
     sku: {
-      name: 'F1'
+      name: 'S1'
       capacity: 1
     }
   }

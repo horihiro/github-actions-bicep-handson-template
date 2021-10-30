@@ -52,5 +52,5 @@ resource toyManualsStorageAccount 'Microsoft.Storage/storageAccounts@2021-02-01'
   name: toyManualsStorageAccountName
   location: resourceGroup().location
   kind: 'StorageV2'
-  sku: environmentConfigurationtoyManualsStorageAccount.sku
+  sku: environmentConfiguration.toyManualsStorageAccount.sku
 }

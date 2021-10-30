@@ -3,7 +3,6 @@ name: deploy-toy-website
 on: 
   push:
     branches: 
-      - exercise-3
       - main
     paths: 
       - 'deploy/**'

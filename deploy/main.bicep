@@ -13,7 +13,7 @@ var toyManualsStorageAccountName = 'toyweb${resourceNameSuffix}'
 var environmentConfiguration = {
   appServicePlan: {
     sku: {
-      name: 'F1'
+      name: 'S1'
       capacity: 1
     }
   }
@@ -38,6 +38,7 @@ resource appServiceApp 'Microsoft.Web/sites@2020-06-01' = {
     serverFarmId: appServicePlan.id
     httpsOnly: true
     siteConfig: {
+      alwaysOn: true
       appSettings: [
         {
           name: 'ToyManualsStorageAccountConnectionString'

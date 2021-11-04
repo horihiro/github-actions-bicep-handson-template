@@ -1,4 +1,4 @@
-name: deploy-toy-website
+name: deploy-toy-website-on-push
 
 on: 
   push:

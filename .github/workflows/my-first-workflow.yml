@@ -5,5 +5,5 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-    - name: placeholder step
+    - name: hello world step
       run: echo "Hello world!"

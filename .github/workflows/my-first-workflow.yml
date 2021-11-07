@@ -1,6 +1,8 @@
 name: toy-website-deployment
+
 on:
-- workflow_dispatch
+  workflow_dispatch:
+
 jobs:
   say-hello:
     runs-on: ubuntu-latest

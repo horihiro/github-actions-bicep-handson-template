@@ -8,8 +8,8 @@ on:
       - 'deploy/**'
 
 env:
-    # 作成したリソースグループ名と同じにする
-    AZURE_RESOURCEGROUP_NAME: ToyWebsite
+  # 作成したリソースグループ名と同じにする
+  AZURE_RESOURCEGROUP_NAME: ToyWebsite
     
 jobs:
   deploy:
